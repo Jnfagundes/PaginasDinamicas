@@ -2,11 +2,11 @@
 
 //Somando dois valores
 
-var num ;
-var num2;
+let num ;
+let num2;
 
-Number.num = prompt('Digite um número:');
-Number.num2 = prompt('Digite outro número:');
+num = Number(prompt('Digite um número:'));
+num2 = Number(prompt('Digite outro número:'));
 
 console.log(typeof(num))
 console.log(typeof(num2))
