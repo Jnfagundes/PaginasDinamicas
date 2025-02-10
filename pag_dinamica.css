@@ -1,36 +1,73 @@
 body{
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
     border: 0px;
+
+
 }
 
 main{
-    width: 35%;
-    height: 600px;
-    border: solid 1px black;
+    width: 20%;
+    height: 450px;
     margin: auto;
+    margin-top: 50px;
     padding: 20px;
-    margin-top: 135px;
+    border: solid 1px black;
 }
 
 #topo{
-    display: flex;
     width: 100%;
-    height: 60px;
+    height: 50px;
     margin-bottom: 20px;
-    border: solid 1px black;
+    display: flex;
 }
 
 #tela{
-    width: 80%;
-    height: 60px;
+    width: 73%;
+    height: 50px;
+    margin-right: 15px;
     border: solid 1px black;
-
 }
 
 #borracha{
-    width: 15%;
-    height: 60px;
-    margin-left: 20px;
+    width: 21%;
+    height: 50px;
+    text-align: center;
     border: solid 1px black;
+}
+
+#eraser{
+    width: 50px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+#linha_um, #linha_dois, #linha_tres, #linha_quatro{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.itens{
+    width: 20%;
+    height: 70px;
+    margin-right: 15px;
+    text-align: center;
+    border: solid 1px black;
+}
+
+#divisao, #multiplicacao, #subtracao, #adicao{
+    width: 20%;
+    height: 70px;
+    margin-right: 0px;
+}
+
+p{
+    width: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin: auto;
+    margin-top: 15px;
+
+    /*border: solid 1px black;*/
 }
