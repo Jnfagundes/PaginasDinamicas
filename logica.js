@@ -1,16 +1,14 @@
+const dark = document.getElementById('dark');
 
+dark.addEventListener('click', () =>{
 
-//Somando dois valores
-
-let num = 0;
-let num2 = 0;
-
-num = Number(prompt('Digite um número:'));
-num2 = Number(prompt('Digite outro número:'));
-
-//console.log(typeof(num))
-//console.log(typeof(num2))
-
-soma = num + num2
-alert('A soma dos números é: '+ soma);
+    if (document.body.style.backgroundColor === 'green'){
+        document.body.style.backgroundColor = 'white'
+        document.body.style.color = '#000000'; 
+    }
+    else{
+        document.body.style.backgroundColor = 'green'
+        document.body.style.color = '#ffffff'; 
+    }
+})
 
