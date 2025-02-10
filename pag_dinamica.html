@@ -4,41 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pag_dinamica.css">
+    <script src="index.js" defer></script>
     <title>Página Dinâmica</title>
 </head>
 <body>
-    <button id="dark">Dark</button><!--Botão para criar uma cor dark-->
-    <main>
+    
+    <main id="principal">
         <section id="topo">
             <div id="tela"></div>
-            <div id="borracha"></div>
+            <div id="borracha"><p id="eraser">AC</p></div>
         </section>
-        <section id="linha_um">
-            <div class="num" id="sete">7</div>
-            <div class="num" id="oito">8</div>
-            <div class="num" id="nove">9</div>
-            <div class="operacao" id="divisao">/</div>
+        <section class="linhas">
+            <div class="num btn" id="sete"><p>7</p></div>
+            <div class="num btn" id="oito"><p>8</p></div>
+            <div class="num btn" id="nove"><p>9</p></div>
+            <div class="op btn" id="divisao"><p class="ex">/</p></div>
         </section>
-        <section id="linha_dois">
-            <div class="num" id="quatro">4</div>
-            <div class="num" id="cinco">5</div>
-            <div class="num" id="seis">6</div>
-            <div class="op" id="multiplicacao">*</div>
+        <section class="linhas">
+            <div class="num btn" id="quatro"><p>4</p></div>
+            <div class="num btn" id="cinco"><p>5</p></div>
+            <div class="num btn" id="seis"><p>6</p></div>
+            <div class="op btn" id="multiplicacao"><p class="ex">*</p></div>
         </section>
-        <section id="linha_tres">
-            <div class="num" id="um">1</div>
-            <div class="num" id="dois">2</div>
-            <div class="num" id="tres">3</div>
-            <div class="op" id="subtracao">-</div>
+        <section class="linhas">
+            <div class="num btn" id="um"><p>1</p></div>
+            <div class="num btn" id="dois"><p>2</p></div>
+            <div class="num btn" id="tres"><p>3</p></div>
+            <div class="op btn" id="subtracao"><p class="ex">-</p></div>
         </section>
-        <section id="linha_quatro">
-            <div class="ex" id="zero">0</div>
-            <div class="ex" id="ponto">.</div>
-            <div class="ex" id="igual">=</div>
-            <div class="op" id="adicao">+</div>
+        <section class="linhas">
+            <div class="ex btn" id="zero"><p>0</p></div>
+            <div class="ex btn" id="ponto"><p>.</p></div>
+            <div class="ex btn" id="igual"><p>=</p></div>
+            <div class="op btn" id="adicao"><p>+</p></div>
         </section>
 
     </main>
+    <button id="dark">Dark</button><!--Botão para criar uma cor dark-->
     <script src="logica.js"></script>
 </body>
 </html>
