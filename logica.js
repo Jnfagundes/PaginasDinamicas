@@ -24,7 +24,7 @@ dark.addEventListener('click', () =>{
         // principal.style.backgroundColor = 'grey';
         // document.btn.style.backgroundColor ='grey';
         // document.btn.style.color = '#ffffff';
-        // btn.style.backgroundColor = 'brown';
+        btn.style.backgroundColor = 'brown';
         // document.body.style.color = '#ffffff'
     }
 })
