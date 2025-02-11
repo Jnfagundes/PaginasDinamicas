@@ -1,7 +1,10 @@
 const dark = document.getElementById('dark');
 const principal = document.getElementById('principal');
-const btn = document.getElementsByClassName('btn');
+
 const borracha = document.getElementById('borracha')
+
+const btn = document.querySelector('div')
+
 
 dark.addEventListener('click', () =>{
 
@@ -22,7 +25,7 @@ dark.addEventListener('click', () =>{
         // principal.style.backgroundColor = 'grey';
         // document.btn.style.backgroundColor ='grey';
         // document.btn.style.color = '#ffffff';
-        // btn.style.backgroundColor = 'brown';
+        btn.style.backgroundColor = 'brown';
         // document.body.style.color = '#ffffff'
     }
 })
