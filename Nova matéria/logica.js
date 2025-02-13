@@ -1,7 +1,6 @@
 let titulo = document.querySelector('h1');
 
 titulo.innerText = 'Foi colocado via JS';
-
 console.log(titulo.innerText)
 
 //let div = document.querySelector('div');
@@ -16,11 +15,25 @@ document.body.style.backgroundColor = 'beige'
 
 const divisao = document.createElement('div')
 divisao.innerHTML = `
-    <p id = "title">Criando elementos com Java Script</p>
     <img id="imagem" src = "Imagens/Elementos_JS.png">
+    <p id = "title">Criando elementos com Java Script</p>
     `
-divisao.style.width = '90%'
-divisao.style.height = '30%'
-divisao.style.border = 'solid black 1px'
-document.body.appendChild(divisao)
+divisao.style.width = '50%'
+divisao.style.height = '50%';
+divisao.style.display = 'flex';
+divisao.style.padding = '0px';
+divisao.style.margin = 'auto';
+divisao.style.marginTop = '-30px';
+// divisao.style.border = 'solid 1px black'
 
+document.body.appendChild(divisao);
+
+let title = document.getElementById('title');
+
+title.style.fontSize = '2rem';
+title.style.textDecoration = 'underline';
+title.style.textDecorationColor = 'blue'
+
+document.divisao.appendChild(title)
+
+let 
