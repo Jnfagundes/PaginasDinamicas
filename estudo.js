@@ -1,5 +1,5 @@
 // Criar o container principal
-const container = document.createElement("div");
+const container = document.createElement("div"); //
 container.style.textAlign = "center";
 document.body.appendChild(container);
 
@@ -36,3 +36,7 @@ botao.addEventListener("click", () => {
 
     lista.appendChild(item);
 });
+
+()=>{
+    
+}
