@@ -36,4 +36,3 @@ title.style.textDecorationColor = 'blue'
 
 document.divisao.appendChild(title)
 
-let 
