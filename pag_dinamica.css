@@ -28,6 +28,7 @@ main{
     width: 73%;
     height: 50px;
     margin-right: 18px;
+    
     background-color: white;
     border: solid 1px black;
 }
@@ -36,13 +37,8 @@ main{
     width: 21%;
     height: 50px;
     text-align: center;
-    border: solid 1px black;
-}
-
-#eraser{
-    width: 50px;
-    margin-top: 7px;
-    text-align: center;
+    font-size: 1.8rem;
+    
 }
 
 .linhas{
@@ -57,7 +53,7 @@ main{
     width: 21%;
     margin-right: 18px;
     text-align: center;
-    border: solid 1px black;
+    font-size: 1.9rem;
 
 }
 
@@ -75,14 +71,26 @@ main{
     margin-right: 0px;
 }
 
-p{
-    width: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.9em;
+/* Quando se coloca borda no button, modifica a configuração padrão e não é possível ver os "efeitos visuais" 
+#dark{
+    background-color: black;
+    color: wheat;
+    border: solid 2px yellow;
+} */
+
+#opcoes{
     margin: auto;
-    margin-top: 15px;
+    width: 90%;
+    height: 30px;
+    padding: 0%;
+    margin-top: 7px;
+    border-radius: 10px;
 }
 
-#num{
-    background-color: rgb(red, green, blue);
+
+
+#tela{
+    font-size: 2rem;
+    text-align: end;
+    
 }

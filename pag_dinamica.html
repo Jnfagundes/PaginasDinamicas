@@ -4,39 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pag_dinamica.css">
-    <script src="index.js" defer></script>
+    <script src="calculadora.js" defer></script>
+
     <title>Página Dinâmica</title>
 </head>
 <body>
     
     <main id="principal">
         <section id="topo">
-            <div id="tela"></div>
-            <div id="borracha"><p id="eraser">AC</p></div>
+            <div id="tela">
+                <p id="opcoes"></p>
+            </div>
+            <button id="borracha">AC</button>
         </section>
         <section class="linhas">
-            <div class="num btn" id="sete"><p>7</p></div>
-            <div class="num btn" id="oito"><p>8</p></div>
-            <div class="num btn" id="nove"><p>9</p></div>
-            <div class="op btn" id="divisao"><p class="ex">/</p></div>
+            <button class="num btn" id="sete">7</button>
+            <button class="num btn" id="oito">8</button>
+            <button class="num btn" id="nove">9</button>
+            <button class="op btn" id="divisao">/</button>
+        </section>
+        <section class="linhas"></button>
+            <button class="num btn" id="quatro">4</button>
+            <button class="num btn" id="seis">6</button>
+            <button class="num btn" id="cinco">5</button>
+            <button class="op btn" id="multiplicacao">*</button>
         </section>
         <section class="linhas">
-            <div class="num btn" id="quatro"><p>4</p></div>
-            <div class="num btn" id="cinco"><p>5</p></div>
-            <div class="num btn" id="seis"><p>6</p></div>
-            <div class="op btn" id="multiplicacao"><p class="ex">*</p></div>
+            <button class="num btn" id="um">1</button>
+            <button class="num btn" id="dois">2</button>
+            <button class="num btn" id="tres">3</button>
+            <button class="op btn" id="subtracao" class="ex">-</button>
         </section>
         <section class="linhas">
-            <div class="num btn" id="um"><p>1</p></div>
-            <div class="num btn" id="dois"><p>2</p></div>
-            <div class="num btn" id="tres"><p>3</p></div>
-            <div class="op btn" id="subtracao"><p class="ex">-</p></div>
-        </section>
-        <section class="linhas">
-            <div class="ex btn" id="zero"><p>0</p></div>
-            <div class="ex btn" id="ponto"><p>.</p></div>
-            <div class="ex btn" id="igual"><p>=</p></div>
-            <div class="op btn" id="adicao"><p>+</p></div>
+            <button class="ex btn" id="zero">0</button>
+            <button class="ex btn" id="ponto">.</button>
+            <button class="ex btn" id="igual">=</button>
+            <button class="op btn" id="adicao">+</button>
         </section>
 
     </main>

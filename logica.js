@@ -1,9 +1,5 @@
 const dark = document.getElementById('dark');
 const principal = document.getElementById('principal');
-const btn = document.getElementsByClassName('btn');
-const borracha = document.getElementById('borracha')
-
-
 
 dark.addEventListener('click', () =>{
 
@@ -19,6 +15,7 @@ dark.addEventListener('click', () =>{
         principal.style.color = 'white'
     }
 })
+
 
 
 

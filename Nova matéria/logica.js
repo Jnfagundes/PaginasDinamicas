@@ -36,3 +36,9 @@ title.style.textDecorationColor = 'blue'
 
 document.divisao.appendChild(title)
 
+const quadrado = document.querySelector("#quadrado")
+
+const qua = document.getElementById('quadrado')
+
+
+
