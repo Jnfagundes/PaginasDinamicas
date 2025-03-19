@@ -29,13 +29,16 @@ const opcoes = document.getElementById('opcoes');
 //digite o segundo nº
 //mostrar o resultado
 
-let guardar = [];
 
-function guardar(){
-    addEventListener('onmouseup', ()=> {
-        guardar
-    })
-}
+// let guardar = [];
+
+// function guardar(){
+//     addEventListener('onmouseup', ()=> {
+//         guardar
+//     })
+// }
+
+
 // function Calc(num, num2){
 // }
 // zero.addEventListener('click', () => {
