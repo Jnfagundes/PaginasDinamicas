@@ -24,6 +24,28 @@ const tela = document.getElementById('tela');
 const borracha = document.getElementById('borracha');
 const opcoes = document.getElementById('opcoes');
 
+
+
+// function Cliques(){
+//     // opcoes = zero.innerText = 0
+    
+// }
+
+const cliq = []
+
+function clicou(){
+    zero.addEventListener("click", ()=>{
+        opcoes.innerText = 0
+        alert("Você clicou no zero!")
+    })
+    um.addEventListener("click", ()=>{
+        opcoes.innerText = 1
+        alert("Você clicou no um!")
+    })
+}
+
+clicou()
+
 //digite um nº
 //escolha a operação
 //digite o segundo nº
@@ -39,11 +61,6 @@ const opcoes = document.getElementById('opcoes');
 // }
 
 
-// function Calc(num, num2){
-// }
-// zero.addEventListener('click', () => {
-//     opcoes.innerHTML = '0'
-    
 // })
 
 // function clique(){
