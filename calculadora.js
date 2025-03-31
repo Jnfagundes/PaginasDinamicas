@@ -26,25 +26,81 @@ const opcoes = document.getElementById('opcoes');
 
 
 
+
 // function Cliques(){
 //     // opcoes = zero.innerText = 0
     
 // }
 
 const cliq = []
+let array = [cliq]
 
 function clicou(){
     zero.addEventListener("click", ()=>{
-        opcoes.innerText = 0
-        alert("Você clicou no zero!")
+        cliq.push(0)
+        opcoes.innerText = cliq.join("")
+        
     })
     um.addEventListener("click", ()=>{
-        opcoes.innerText = 1
-        alert("Você clicou no um!")
+        cliq.push(1)
+        opcoes.innerText = cliq.join("")
+        
+    })
+    dois.addEventListener("click", ()=>{
+        cliq.push(2)
+        opcoes.innerText = cliq.join("")
+        
+    })
+    tres.addEventListener("click", ()=>{
+        cliq.push(3)
+        opcoes.innerText = cliq.join("")
+        
+    })
+    quatro.addEventListener("click", ()=>{
+        cliq.push(4)
+        opcoes.innerText = cliq.join("")
+        
+    })
+    cinco.addEventListener("click", ()=>{
+        cliq.push(5)
+        opcoes.innerText = cliq.join("")
+        
+    })
+    seis.addEventListener("click", ()=>{
+        cliq.push(6)
+        opcoes.innerText = cliq.join("")
+        
+    })
+    sete.addEventListener("click", ()=>{
+        cliq.push(7)
+        opcoes.innerText = cliq.join("")
+        
+    })
+    oito.addEventListener("click", ()=>{
+        cliq.push(8)
+        opcoes.innerText = cliq.join("")
+        
+    })
+    nove.addEventListener("click", ()=>{
+        cliq.push(9)
+        opcoes.innerText = cliq.join("")
+        
     })
 }
 
 clicou()
+
+function Limpar(){
+    opcoes.innerText = array.splice(cliq)
+}
+
+
+console.log(cliq);
+cliq.length
+
+// O comportamento que espero deste array é que 
+// 
+
 
 //digite um nº
 //escolha a operação
